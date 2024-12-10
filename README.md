@@ -88,7 +88,7 @@ facialAttendanceMLSystem/
 ### Note :  
 - my system is linux so some syntax is different than windows like, for windows users it will be for example : 
 ```python
-ubprocess.Popen(r'explorer /select,"C:\Users\path_to_project\facialAttendanceMLSystem\Attendance\-------Check atttendance------"')
+subprocess.Popen(r'explorer /select,"C:\Users\path_to_project\facialAttendanceMLSystem\Attendance\-------Check atttendance------"')
 ```
 instead of linux syntax : 
 ```python
